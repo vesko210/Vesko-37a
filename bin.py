@@ -1,0 +1,5 @@
+n = int(input())
+place = int(input())
+n = bin(n)
+print(n)
+print(n[place + 1] == 1)
